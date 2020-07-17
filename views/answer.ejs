@@ -1,0 +1,16 @@
+
+<%- include("partials/header"); -%>
+    <h1>Post to help others <i class="fas fa-hands-helping"></i></h1>
+    <form class="" action="/answer" method="post">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input class="form-control" type="text" name="personName" autocomplete="off">
+        <label>What you wanna talk about</label>
+        <input class="form-control" type="text" name="questionName" autocomplete="off">
+        <label>Your Answer</label>
+        <textarea class="form-control" name="answerName" rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+
+<%- include("partials/footer"); -%>

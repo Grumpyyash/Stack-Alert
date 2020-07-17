@@ -1,0 +1,123 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    width: 100%;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+  top: 100%;
+	width: 100%;
+	background: rgba(30,50,56,0.8) !important;
+}
+.footer.about {
+  background-color: rgba(30,50,56,0.8);
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.nav {
+  font-size: 1.2rem;
+}
+.hr {
+  border: 1px solid black;
+}
+.answer-link {
+  margin-left: 20px;
+}
+.question-form {
+  padding-bottom: 20px;
+}
+.home-span {
+  color: #1abc9c;
+}
+.person-name {
+  color: #1abc9c;
+}
+.person-home {
+  padding-left: 20px;
+  color: #1abc9c;
+}
+.credit {
+  font-size: 1.5rem;
+  color: grey;
+  padding-top: 20px;
+}
+
+
+.about {
+  text-align: left;
+  padding-left: 38%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.about-text {
+  font-size: 1.6rem;
+}
+.footer-icons {
+  font-size: 5rem;
+  color: white;
+  padding-top: 10%;
+}
+.icon-anchor {
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
+}
+.icon-anchor:hover {
+  color: black;
+}
+.developer {
+  text-align: left;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 38%;
+}
+.developer-icon {
+  margin-right: 38%;
+  margin-left: 3%;
+}
+.you-tube-div {
+  text-align: center;
+  margin-top: 6%;
+}
+.you-tube {
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  margin: 3%;
+}
+.resource-rule {
+  border: 2px solid black;
+}
+.resource-link {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 3%;
+}

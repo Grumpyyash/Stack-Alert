@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+<h1>Ask a Question</h1>
+
+<form class="" action="/question" method="post">
+  <div class="form-group">
+    <label>Your Name</label>
+    <input class="form-control" type="text" name="yourName" autocomplete="off">
+    <label>Your Question</label>
+    <textarea class="form-control" name="questionName" rows="5" cols="30"></textarea>
+  </div>
+  <button class="btn btn-primary" type="submit" name="button">Post</button>
+</form>
+
+<%- include("partials/footer") -%>

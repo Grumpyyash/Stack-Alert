@@ -1,0 +1,21 @@
+
+<%- include("partials/header"); -%>
+    <h3>Home <i class="fas fa-home"></i></h3>
+    <p> <%= startingContent %> </p>
+    <hr class="resource-rule">
+
+  <%  posts.forEach(function(post, index){ %>
+
+    <h3>Q <%= index+1 %>. <%=post.question%></h3>
+    <p>
+      <span class="home-span">Ans:</span>
+    <%=post.answer.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    <span class="person-home">Answer By: <%= post.name %></span>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>

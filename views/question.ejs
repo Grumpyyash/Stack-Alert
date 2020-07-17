@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+
+    <h2>Questions</h2>
+    <hr class="hr">
+  <%  questions.forEach(function(question, index){ %>
+       <h5>Can you answer a question asked by <span class="person-name"><%= question.person %></span></h5>
+      <h4><%= index+1 %>. <%= question.question %> </h4>
+      <form class="question-form" action="/answerNow" method="post">
+        <button class="btn btn-primary" type="submit" name="button" value="<%= question.question %>">Answer It</button>
+      </form>
+  <%  }) %>
+
+<%- include("partials/footer"); -%>
